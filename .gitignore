@@ -1,0 +1,18 @@
+# --- Python / virtualenv ---
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- App generated / downloaded folders (Anchored to root) ---
+/.cache/
+/models/
+/data/
+/logs/
+
+# --- Misc ---
+.env
+.idea/
+.vscode/
+.DS_Store

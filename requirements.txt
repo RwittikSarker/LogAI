@@ -1,0 +1,19 @@
+
+torch>=2.6
+
+transformers>=5.0
+accelerate>=1.0
+huggingface_hub
+safetensors
+
+# --- Resource monitoring ---
+psutil>=5.9
+
+# --- Backend (used from step 5 onwards; installed now to avoid re-resolving) ---
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+flask
+
+# --- Tests ---
+pytest>=8
